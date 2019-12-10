@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>title</title>
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Press+Start+2P" type="text/css">
-  <link rel="stylesheet" href="styles.css" type="text/css">
-  </head>
-  <body>
+<html lang="en">
+<head>
+    <title>Tetris</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
     <div class="grid">
         <canvas id="board" class="game-board"></canvas>
         <div class="right-column">
@@ -20,5 +19,12 @@
             <button onclick="play()" class="play-button">Play</button>
         </div>
     </div>
-  </body>
+
+
+  <script type="text/javascript" src="constants.js"></script>
+  <script type="text/javascript" src="board.js"></script>
+  <script type="text/javascript" src="piece.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  
+</body>
 </html>
