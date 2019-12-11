@@ -35,5 +35,10 @@ class Piece {
           })
         })
       }
+
+      move(p) {
+        this.x = p.x;
+        this.y = p.y;
+      }
   }
 
